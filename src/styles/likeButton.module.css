@@ -1,0 +1,12 @@
+.oneLiner{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 50px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.marginLeft{
+    margin-left: 20px;
+}
