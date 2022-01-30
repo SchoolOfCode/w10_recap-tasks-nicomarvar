@@ -5,12 +5,12 @@ import LikeButton from "../LikeButton"
 export default function ArticleSection({articles}){
 
     return articles.map(
-        (article) => {
-            return <article>
+        (article, id) => {
+            return <article key={id}>
                     <h2>{article.title}</h2>
                     {article.paragraphs.map(
-                        (paragraph) => {
-                            return <p>{paragraph}</p>
+                        (paragraph,id) => {
+                            return <p key={`p${id}`}>{paragraph}</p>
                         }
                     )}
                     <LikeButton/>
