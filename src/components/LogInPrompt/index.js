@@ -1,8 +1,6 @@
 import LoginButton from "../LoginButton";
 import css from "../../styles/loginPrompt.module.css";
 
-import LogoutButton from "../LogoutButton";
-
 export default function LoginPrompt(){
 
     return(
